@@ -14,4 +14,15 @@ This Python script automates the process of counting files stored in Google Clou
    ```bash
    python count_storage_classes.py <your-project-id> <your-bucket-name>
 
-Thanks to ChatGPT 4 for assisting with setup of this repository.
+The script will print counts directly to the standard output (stdout). For example, it may look like this:
+```
+STANDARD: 1500
+NEARLINE: 100
+COLDLINE: 50
+ARCHIVE: 25
+```
+If you need to save it to a file instead of just viewing it in the terminal, you can redirect the output to a file when you run it:
+```bash
+python count_storage_classes.py <your-project-id> <your-bucket-name> > output.txt
+```
+Thanks to ChatGPT 4 for assisting with the setup of this repository.
