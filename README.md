@@ -14,4 +14,4 @@ This Python script automates the process of counting files stored in Google Clou
    ```bash
    python count_storage_classes.py <your-project-id> <your-bucket-name>
 
-With thanks to ChatGPT for assisting with setting up this repository.
+Thanks to ChatGPT 4 for assisting with setup of this repository.
